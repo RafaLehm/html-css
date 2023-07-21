@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamanhos de imagens</title>
+</head>
+<body>
+  <h1>Neste tópico iremos adicionar três tamanhos de imagens para outros dispositivos que tenham tamanhos de telas diferentes.</h1>  
+
+  <picture>
+    <source media="(max-width: 750px )" srcset="imagens/pequena.jpg" type="image/jpg">
+    <source media="(max-width: 1050px)" srcset="imagens/Media.jpg" type="image/jpg">
+    <img src="imagens/grande.jpg" alt="foto grande" >  
+  </picture>
+
+<h2>Muito cuidado para não inverter o <strong>source media</strong> da imagem maior para menor, pois não funcionará!!!! </h2>
+
+<h1>podemos também colocar um áudio...</h1>
+
+<audio src="midias/rock.mp3" autoplay controls></audio>
+<p>o comando <strong>controls</strong> serve para colocar um painel de controle para o som, o comando <strong>autoplay</strong> serve para reproduzir a música automaticamente.</p>
+
+</body>
+</html>
