@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segundo formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Meu segundo formulário
+    </h1>
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        
+        <p><label for="iusu">Usuário:</label> 
+            <input type="text" name="usu" id="iusu" required minlength="5" maxlength="30" size="11" placeholder="Nome do usuário" autocomplete="username"></p>
+        
+            <p><label for="isen">Senha:</label>
+             <input type="password" name="Sen" id="iSen" required minlength="8" maxlength="20" size="10" placeholder="Mínimo 8 Letras" autocomplete="current-password"></p>
+        
+             <p><input type="submit" value="Enviar">
+            <input type="reset" value="Limpar"></p>
+             
+    </form>
+    
+    <!--
+        legenda de comandos:
+
+        required minlength = "mínimo de carcteres"
+        maxlength = máximo de caracteres
+        size = tamanho da caixa de texto
+        placeholder = é o que aparece escrito em transparente na caixa de texto
+        autocomplete = completa automaticamente o que está salvo pelos cookies
+    -->
+</body>
+</html>
