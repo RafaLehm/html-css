@@ -1,0 +1,11 @@
+
+
+
+
+
+
+		PEQUENAS TELAS: até 600px
+		CELULAR: de 600px até 768px
+		TABLET: 768px até 992px
+		DESKTOP: 992px até 1200px
+		GRANDES TELAS: acima de 1200px
